@@ -4,7 +4,6 @@ kotlin_test(
     deps = [
         "//src/i_introduction/_3_Default_Arguments:3",
         "//lib:junit",
-        "//lib/kotlin:kotlin-stdlib",
     ],
     visibility = ["PUBLIC"],
 )
