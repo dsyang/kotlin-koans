@@ -1,0 +1,29 @@
+kotlin_library(
+    name = "4",
+    srcs = glob(["*.kt"]),
+    tests = [
+        "//test/i_introduction/_4_Lambdas:4",
+    ],
+    deps = [
+        ":java",
+        "//lib:guava",
+        "//src/util:util-kotlin",
+    ],
+    visibility = ["PUBLIC"],
+)
+
+
+java_library(
+    name = "java",
+    srcs = glob(["*.java"]),
+    deps = [
+        "//lib:guava",
+        "//src/util:util-java",
+    ],
+    exported_deps = [
+        "//src/util:util-java",
+    ],
+    visibility = [
+        "//src/i_introduction/_4_Lambdas:4",
+    ]
+)

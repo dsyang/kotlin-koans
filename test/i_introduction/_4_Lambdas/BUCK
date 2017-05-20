@@ -1,0 +1,9 @@
+kotlin_test(
+    name = "4",
+    srcs = glob(["*.kt"]),
+    deps = [
+        "//src/i_introduction/_4_Lambdas:4",
+        "//lib:junit",
+    ],
+    visibility = ["PUBLIC"],
+)
