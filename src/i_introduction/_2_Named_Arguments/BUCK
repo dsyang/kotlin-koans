@@ -1,0 +1,12 @@
+kotlin_library(
+    name = "2",
+    srcs = glob(["*.kt"]),
+    tests = [
+        "//test/i_introduction/_2_Named_Arguments:2",
+    ],
+    deps = [
+        "//src/util:util-kotlin",
+        "//src/i_introduction/_1_Java_To_Kotlin_Converter:1",
+    ],
+    visibility = ["PUBLIC"],
+)
