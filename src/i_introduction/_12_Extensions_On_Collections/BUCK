@@ -1,0 +1,11 @@
+kotlin_library(
+    name = "12",
+    srcs = glob(["*.kt"]),
+    tests = [
+        "//test/i_introduction/_12_Extensions_On_Collections:12",
+    ],
+    deps = [
+        "//src/util:util-kotlin",
+    ],
+    visibility = ["PUBLIC"],
+)

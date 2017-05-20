@@ -1,0 +1,9 @@
+kotlin_test(
+    name = "12",
+    srcs = glob(["*.kt"]),
+    deps = [
+        "//src/i_introduction/_12_Extensions_On_Collections:12",
+        "//lib:junit",
+    ],
+    visibility = ["PUBLIC"],
+)

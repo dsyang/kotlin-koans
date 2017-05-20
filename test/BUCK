@@ -13,6 +13,7 @@ kotlin_test(
         "//test/i_introduction/_9_Extension_Functions:9",
         "//test/i_introduction/_10_Object_Expressions:10",
         "//test/i_introduction/_11_SAM_Conversions:11",
+        "//test/i_introduction/_12_Extensions_On_Collections:12",
     ],
     visibility = ["PUBLIC"],
 )
