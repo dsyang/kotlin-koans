@@ -1,0 +1,25 @@
+kotlin_library(
+    name = "9",
+    srcs = glob(["*.kt"]),
+    tests = [
+        "//test/i_introduction/_9_Extension_Functions:9",
+    ],
+    deps = [
+        "//src/util:util-kotlin",
+    ],
+    visibility = ["PUBLIC"],
+)
+
+java_library(
+    name = "java",
+    srcs = glob(["*.java"]),
+    deps = [
+        "//src/util:util-java",
+    ],
+    exported_deps = [
+        "//src/util:util-java",
+    ],
+    visibility = [
+        "//src/i_introduction/_9_Extension_Functions:9",
+    ]
+)

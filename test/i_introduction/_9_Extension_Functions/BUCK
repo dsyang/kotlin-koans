@@ -1,0 +1,9 @@
+kotlin_test(
+    name = "9",
+    srcs = glob(["*.kt"]),
+    deps = [
+        "//src/i_introduction/_9_Extension_Functions:9",
+        "//lib:junit",
+    ],
+    visibility = ["PUBLIC"],
+)
