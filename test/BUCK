@@ -4,6 +4,7 @@ kotlin_test(
         "//test/i_introduction/_0_Hello_World:0",
         "//test/i_introduction/_1_Java_To_Kotlin_Converter:1",
         "//test/i_introduction/_2_Named_Arguments:2",
+        "//test/i_introduction/_3_Default_Arguments:3",
     ],
     visibility = ["PUBLIC"],
 )

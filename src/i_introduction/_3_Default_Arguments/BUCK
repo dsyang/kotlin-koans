@@ -1,8 +1,8 @@
 kotlin_library(
-    name = "1",
+    name = "3",
     srcs = glob(["*.kt"]),
     tests = [
-        "//test/i_introduction/_1_Java_To_Kotlin_Converter:1",
+        "//test/i_introduction/_3_Default_Arguments:3",
     ],
     deps = [
         ":java",
@@ -10,6 +10,7 @@ kotlin_library(
     ],
     visibility = ["PUBLIC"],
 )
+
 
 java_library(
     name = "java",
@@ -21,6 +22,6 @@ java_library(
         "//src/util:util-java",
     ],
     visibility = [
-        "//src/i_introduction/_1_Java_To_Kotlin_Converter:1",
+        "//src/i_introduction/_3_Default_Arguments:3",
     ]
 )
