@@ -1,0 +1,10 @@
+kotlin_test(
+    name = "1",
+    srcs = glob(["*.kt"]),
+    deps = [
+        "//src/i_introduction/_1_Java_To_Kotlin_Converter:1",
+        "//lib:junit",
+        "//lib/kotlin:kotlin-stdlib",
+    ],
+    visibility = ["PUBLIC"],
+)

@@ -2,6 +2,7 @@ kotlin_test(
     name = "test",
     deps = [
         "//test/i_introduction/_0_Hello_World:0",
+        "//test/i_introduction/_1_Java_To_Kotlin_Converter:1",
     ],
     visibility = ["PUBLIC"],
 )
