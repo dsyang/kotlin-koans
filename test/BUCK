@@ -1,0 +1,7 @@
+kotlin_test(
+    name = "test",
+    deps = [
+        "//test/i_introduction/_0_Hello_World:0",
+    ],
+    visibility = ["PUBLIC"],
+)
