@@ -1,0 +1,9 @@
+kotlin_test(
+    name = "6",
+    srcs = glob(["*.kt"]),
+    deps = [
+        "//src/i_introduction/_6_Data_Classes:6",
+        "//lib:junit",
+    ],
+    visibility = ["PUBLIC"],
+)
