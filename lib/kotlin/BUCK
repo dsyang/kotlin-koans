@@ -1,0 +1,5 @@
+prebuilt_jar(
+    name = "kotlin-stdlib",
+    binary_jar = "kotlin-stdlib.jar",
+    visibility = ["PUBLIC"],
+)

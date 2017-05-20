@@ -1,0 +1,11 @@
+kotlin_library(
+    name = "0",
+    srcs = glob(["*.kt"]),
+    tests = [
+        "//test/i_introduction/_0_Hello_World:0",
+    ],
+    deps = [
+        "//src/util:util-kotlin",
+    ],
+    visibility = ["PUBLIC"],
+)

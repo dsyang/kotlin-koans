@@ -1,0 +1,12 @@
+prebuilt_jar(
+    name = "guava",
+    binary_jar = "guava-16.0.1.jar",
+    visibility = ["PUBLIC"],
+)
+
+
+prebuilt_jar(
+    name = "junit",
+    binary_jar = "junit-4.10.jar",
+    visibility = ["PUBLIC"],
+)

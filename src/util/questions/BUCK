@@ -1,0 +1,5 @@
+kotlin_library(
+    name = "questions",
+    srcs = glob(["*.kt"]),
+    visibility = ["PUBLIC"]
+)
