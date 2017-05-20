@@ -1,0 +1,9 @@
+kotlin_test(
+    name = "8",
+    srcs = glob(["*.kt"]),
+    deps = [
+        "//src/i_introduction/_8_Smart_Casts:8",
+        "//lib:junit",
+    ],
+    visibility = ["PUBLIC"],
+)

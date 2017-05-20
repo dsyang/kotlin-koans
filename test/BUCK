@@ -9,6 +9,7 @@ kotlin_test(
         "//test/i_introduction/_5_String_Templates:5",
         "//test/i_introduction/_6_Data_Classes:6",
         "//test/i_introduction/_7_Nullable_Types:7",
+        "//test/i_introduction/_8_Smart_Casts:8",
     ],
     visibility = ["PUBLIC"],
 )
