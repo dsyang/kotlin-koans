@@ -1,0 +1,11 @@
+kotlin_library(
+    name = "11",
+    srcs = glob(["*.kt"]),
+    tests = [
+        "//test/i_introduction/_11_SAM_Conversions:11",
+    ],
+    deps = [
+        "//src/util:util-kotlin",
+    ],
+    visibility = ["PUBLIC"],
+)

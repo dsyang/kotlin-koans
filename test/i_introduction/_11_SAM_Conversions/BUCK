@@ -1,0 +1,9 @@
+kotlin_test(
+    name = "11",
+    srcs = glob(["*.kt"]),
+    deps = [
+        "//src/i_introduction/_11_SAM_Conversions:11",
+        "//lib:junit",
+    ],
+    visibility = ["PUBLIC"],
+)
