@@ -1,0 +1,9 @@
+kotlin_test(
+    name = "10",
+    srcs = glob(["*.kt"]),
+    deps = [
+        "//src/i_introduction/_10_Object_Expressions:10",
+        "//lib:junit",
+    ],
+    visibility = ["PUBLIC"],
+)

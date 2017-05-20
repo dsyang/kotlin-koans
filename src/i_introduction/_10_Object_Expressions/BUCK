@@ -1,0 +1,11 @@
+kotlin_library(
+    name = "10",
+    srcs = glob(["*.kt"]),
+    tests = [
+        "//test/i_introduction/_10_Object_Expressions:10",
+    ],
+    deps = [
+        "//src/util:util-kotlin",
+    ],
+    visibility = ["PUBLIC"],
+)
