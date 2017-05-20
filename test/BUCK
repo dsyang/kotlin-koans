@@ -6,6 +6,7 @@ kotlin_test(
         "//test/i_introduction/_2_Named_Arguments:2",
         "//test/i_introduction/_3_Default_Arguments:3",
         "//test/i_introduction/_4_Lambdas:4",
+        "//test/i_introduction/_5_String_Templates:5",
     ],
     visibility = ["PUBLIC"],
 )

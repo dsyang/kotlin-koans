@@ -1,0 +1,11 @@
+kotlin_library(
+    name = "5",
+    srcs = glob(["*.kt"]),
+    tests = [
+        "//test/i_introduction/_5_String_Templates:5",
+    ],
+    deps = [
+        "//src/util:util-kotlin",
+    ],
+    visibility = ["PUBLIC"],
+)

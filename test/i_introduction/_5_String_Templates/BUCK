@@ -1,0 +1,9 @@
+kotlin_test(
+    name = "5",
+    srcs = glob(["*.kt"]),
+    deps = [
+        "//src/i_introduction/_5_String_Templates:5",
+        "//lib:junit",
+    ],
+    visibility = ["PUBLIC"],
+)
