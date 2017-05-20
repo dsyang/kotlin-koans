@@ -1,19 +1,7 @@
 kotlin_test(
     name = "test",
     deps = [
-        "//test/i_introduction/_0_Hello_World:0",
-        "//test/i_introduction/_1_Java_To_Kotlin_Converter:1",
-        "//test/i_introduction/_2_Named_Arguments:2",
-        "//test/i_introduction/_3_Default_Arguments:3",
-        "//test/i_introduction/_4_Lambdas:4",
-        "//test/i_introduction/_5_String_Templates:5",
-        "//test/i_introduction/_6_Data_Classes:6",
-        "//test/i_introduction/_7_Nullable_Types:7",
-        "//test/i_introduction/_8_Smart_Casts:8",
-        "//test/i_introduction/_9_Extension_Functions:9",
-        "//test/i_introduction/_10_Object_Expressions:10",
-        "//test/i_introduction/_11_SAM_Conversions:11",
-        "//test/i_introduction/_12_Extensions_On_Collections:12",
+        "//test/i_introduction:i_introduction",
     ],
     visibility = ["PUBLIC"],
 )
