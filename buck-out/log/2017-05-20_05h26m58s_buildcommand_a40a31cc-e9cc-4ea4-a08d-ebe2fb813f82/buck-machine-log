@@ -1,0 +1,7 @@
+InvocationInfo {"buildId":"a40a31cc-e9cc-4ea4-a08d-ebe2fb813f82","superConsoleEnabled":true,"isDaemon":false,"subCommand":"buildcommand","commandArgs":["build","src/util:util-kotlin"],"unexpandedCommandArgs":["build","src/util:util-kotlin"],"buckLogDir":"buck-out/log","timestampMillis":1495258018888}
+PertTimesStats.Update {"timestamp":1495258019311,"perfTimesStats":{"pythonTimeMs":185,"initTimeMs":454,"processingTimeMs":0,"parseTimeMs":0,"actionGraphTimeMs":0,"rulekeyTimeMs":0,"fetchTimeMs":0,"buildTimeMs":0,"installTimeMs":0}}
+ParseStarted {"timestamp":1495258019585}
+PertTimesStats.Update {"timestamp":1495258019586,"perfTimesStats":{"pythonTimeMs":185,"initTimeMs":454,"processingTimeMs":274,"parseTimeMs":0,"actionGraphTimeMs":0,"rulekeyTimeMs":0,"fetchTimeMs":0,"buildTimeMs":0,"installTimeMs":0}}
+ParseFinished {"timestamp":1495258019589}
+UploadToCacheStatistics {"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":-1}

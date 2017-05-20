@@ -1,0 +1,9 @@
+InvocationInfo {"buildId":"a2afab7b-6ca9-422a-8eac-ac305a8d1360","superConsoleEnabled":true,"isDaemon":false,"subCommand":"buildcommand","commandArgs":["build","src/util:util-kotlin"],"unexpandedCommandArgs":["build","src/util:util-kotlin"],"buckLogDir":"buck-out/log","timestampMillis":1495258032996}
+PertTimesStats.Update {"timestamp":1495258033410,"perfTimesStats":{"pythonTimeMs":169,"initTimeMs":443,"processingTimeMs":0,"parseTimeMs":0,"actionGraphTimeMs":0,"rulekeyTimeMs":0,"fetchTimeMs":0,"buildTimeMs":0,"installTimeMs":0}}
+ParseStarted {"timestamp":1495258033683}
+PertTimesStats.Update {"timestamp":1495258033684,"perfTimesStats":{"pythonTimeMs":169,"initTimeMs":443,"processingTimeMs":273,"parseTimeMs":0,"actionGraphTimeMs":0,"rulekeyTimeMs":0,"fetchTimeMs":0,"buildTimeMs":0,"installTimeMs":0}}
+ParseFinished {"timestamp":1495258033697}
+PertTimesStats.Update {"timestamp":1495258033698,"perfTimesStats":{"pythonTimeMs":169,"initTimeMs":443,"processingTimeMs":273,"parseTimeMs":14,"actionGraphTimeMs":0,"rulekeyTimeMs":0,"fetchTimeMs":0,"buildTimeMs":0,"installTimeMs":0}}
+PertTimesStats.Update {"timestamp":1495258033698,"perfTimesStats":{"pythonTimeMs":169,"initTimeMs":443,"processingTimeMs":273,"parseTimeMs":14,"actionGraphTimeMs":0,"rulekeyTimeMs":0,"fetchTimeMs":0,"buildTimeMs":1,"installTimeMs":0}}
+UploadToCacheStatistics {"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":-1}

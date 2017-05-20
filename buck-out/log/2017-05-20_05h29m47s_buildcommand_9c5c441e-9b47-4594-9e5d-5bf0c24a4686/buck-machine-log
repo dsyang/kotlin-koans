@@ -1,0 +1,13 @@
+InvocationInfo {"buildId":"9c5c441e-9b47-4594-9e5d-5bf0c24a4686","superConsoleEnabled":true,"isDaemon":false,"subCommand":"buildcommand","commandArgs":["build","src/util/questions"],"unexpandedCommandArgs":["build","src/util/questions"],"buckLogDir":"buck-out/log","timestampMillis":1495258187050}
+PertTimesStats.Update {"timestamp":1495258187471,"perfTimesStats":{"pythonTimeMs":184,"initTimeMs":449,"processingTimeMs":0,"parseTimeMs":0,"actionGraphTimeMs":0,"rulekeyTimeMs":0,"fetchTimeMs":0,"buildTimeMs":0,"installTimeMs":0}}
+ParseStarted {"timestamp":1495258187720}
+PertTimesStats.Update {"timestamp":1495258187721,"perfTimesStats":{"pythonTimeMs":184,"initTimeMs":449,"processingTimeMs":249,"parseTimeMs":0,"actionGraphTimeMs":0,"rulekeyTimeMs":0,"fetchTimeMs":0,"buildTimeMs":0,"installTimeMs":0}}
+ParseFinished {"timestamp":1495258187721}
+PertTimesStats.Update {"timestamp":1495258187721,"perfTimesStats":{"pythonTimeMs":184,"initTimeMs":449,"processingTimeMs":249,"parseTimeMs":1,"actionGraphTimeMs":0,"rulekeyTimeMs":0,"fetchTimeMs":0,"buildTimeMs":0,"installTimeMs":0}}
+PertTimesStats.Update {"timestamp":1495258187725,"perfTimesStats":{"pythonTimeMs":184,"initTimeMs":449,"processingTimeMs":249,"parseTimeMs":1,"actionGraphTimeMs":2,"rulekeyTimeMs":0,"fetchTimeMs":0,"buildTimeMs":0,"installTimeMs":0}}
+PertTimesStats.Update {"timestamp":1495258187733,"perfTimesStats":{"pythonTimeMs":184,"initTimeMs":449,"processingTimeMs":249,"parseTimeMs":1,"actionGraphTimeMs":2,"rulekeyTimeMs":0,"fetchTimeMs":9,"buildTimeMs":0,"installTimeMs":0}}
+BuildRuleEvent.Finished {"timestamp":1495258191030,"status":"SUCCESS","cacheResult":{"type":"MISS"},"origin":"9c5c441e-9b47-4594-9e5d-5bf0c24a4686","ruleKeys":{"ruleKey":{"hashCode":"dd8858e78d5878e0e6716182aceb0666b948386d"},"inputRuleKey":{"hashCode":"f5c83b9b6f42d464fbf0f800ce85007862721218"}},"outputHash":"af090428f22d437d7b733674499f755e","buildRule":{"name":"//src/util/questions:questions"}}
+PertTimesStats.Update {"timestamp":1495258191031,"perfTimesStats":{"pythonTimeMs":184,"initTimeMs":449,"processingTimeMs":249,"parseTimeMs":1,"actionGraphTimeMs":2,"rulekeyTimeMs":0,"fetchTimeMs":9,"buildTimeMs":3298,"installTimeMs":0}}
+PertTimesStats.Complete {"timestamp":1495258191031,"perfTimesStats":{"pythonTimeMs":184,"initTimeMs":449,"processingTimeMs":249,"parseTimeMs":1,"actionGraphTimeMs":2,"rulekeyTimeMs":0,"fetchTimeMs":9,"buildTimeMs":3298,"installTimeMs":1}}
+UploadToCacheStatistics {"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":0}

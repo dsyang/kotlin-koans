@@ -1,0 +1,5 @@
+InvocationInfo {"buildId":"37d3049e-533d-4a49-bf03-ea5930821fea","superConsoleEnabled":true,"isDaemon":false,"subCommand":"no_sub_command","commandArgs":[],"unexpandedCommandArgs":[],"buckLogDir":"buck-out/log","timestampMillis":1495257359936}
+PertTimesStats.Update {"timestamp":1495257360940,"perfTimesStats":{"pythonTimeMs":508,"initTimeMs":1340,"processingTimeMs":0,"parseTimeMs":0,"actionGraphTimeMs":0,"rulekeyTimeMs":0,"fetchTimeMs":0,"buildTimeMs":0,"installTimeMs":0}}
+PertTimesStats.Complete {"timestamp":1495257360977,"perfTimesStats":{"pythonTimeMs":508,"initTimeMs":1340,"processingTimeMs":0,"parseTimeMs":0,"actionGraphTimeMs":0,"rulekeyTimeMs":0,"fetchTimeMs":0,"buildTimeMs":0,"installTimeMs":36}}
+UploadToCacheStatistics {"successUploadCount":0,"failureUploadCount":0}
+ExitCode {"exitCode":1}

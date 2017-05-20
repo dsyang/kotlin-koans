@@ -1,0 +1,18 @@
+kotlin_library(
+    name = "util-kotlin",
+    srcs = glob(["*.kt"]),
+    deps = [
+        "//lib:guava",
+        "//lib/kotlin:kotlin-stdlib",
+    ],
+    visibility = ["PUBLIC"],
+)
+
+java_library(
+    name = "util-java",
+    srcs = glob(["*.java"]),
+    deps = [
+        "//lib:guava",
+    ],
+    visibility = ["PUBLIC"],
+)
