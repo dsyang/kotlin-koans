@@ -1,0 +1,35 @@
+kotlin_library(
+    name = "hack",
+    srcs = ["HackBecauseNoMixedSources.kt"],
+    visibility = ["PUBLIC"],
+)
+
+kotlin_library(
+    name = "7",
+    srcs = glob(["*.kt"]),
+    tests = [
+        "//test/i_introduction/_7_Nullable_Types:7",
+    ],
+    deps = [
+        ":hack",
+        ":java",
+        "//src/util:util-kotlin",
+    ],
+    visibility = ["PUBLIC"],
+)
+
+java_library(
+    name = "java",
+    srcs = glob(["*.java"]),
+    deps = [
+        ":hack",
+        "//lib/org/jetbrains/annotations:annotations",
+        "//src/util:util-java",
+    ],
+    exported_deps = [
+        "//src/util:util-java",
+    ],
+    visibility = [
+        "//src/i_introduction/_7_Nullable_Types:7",
+    ]
+)

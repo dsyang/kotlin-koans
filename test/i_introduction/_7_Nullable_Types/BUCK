@@ -1,0 +1,9 @@
+kotlin_test(
+    name = "7",
+    srcs = glob(["*.kt"]),
+    deps = [
+        "//src/i_introduction/_7_Nullable_Types:7",
+        "//lib:junit",
+    ],
+    visibility = ["PUBLIC"],
+)
